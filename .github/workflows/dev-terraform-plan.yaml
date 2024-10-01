@@ -3,7 +3,7 @@ name: Terraform PR dev
 on:
   pull_request:
     branches:
-      - master
+      - neville-main
     paths:
       - explore-assistant-backend/terraform/**
 
