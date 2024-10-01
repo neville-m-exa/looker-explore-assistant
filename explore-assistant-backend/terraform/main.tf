@@ -2,6 +2,7 @@ provider "google" {
   project = var.project_id
 }
 
+
 module "base-project-services" {
   count                       = var.use_bigquery_backend ? 1 : 0
   source                      = "terraform-google-modules/project-factory/google//modules/project_services"
